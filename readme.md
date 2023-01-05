@@ -7,9 +7,9 @@
 
 ## Background
 
-A while ago I stumbled upon Jack Herrington's video on [Blazing Fast React Context](https://www.youtube.com/watch?v=ZKlXqrcBx88&t=1496s) (I really recommend watching it) and learn you can share state using Context _without the parent rerendering_.
+A while ago I stumbled upon Jack Herrington's video on [Blazing Fast React Context](https://www.youtube.com/watch?v=ZKlXqrcBx88&t=1496s) (I really recommend watching it) and learned you can share state using Context _without the parent rerendering_.
 
-Yesterday someone asked me "_Why do we need to provide the _value_ props to a Context's provider_?" and it got me wondered "_But we provided the value already in `createContext()`._". After some digging, it turns out the value from `createContext()` is used if no Provider exists.
+Yesterday someone asked me "_Why do we need to provide the _value_ props to a Context's provider_?" and it got me wondered "_That's right. We provided the value already in `createContext()`._". After some digging, it turns out the value from `createContext()` is used if no Provider exists.
 
 I also have been wanting to publish an npm package.
 
