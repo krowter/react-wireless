@@ -1,0 +1,18 @@
+{
+  "name": "react-wireless",
+  "version": "1.0.0",
+  "description": "State management solution that allows 'lifting the state' without parent rerender",
+  "main": "src/index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": ">=16.14.0",
+    "react-dom": ">=16.14.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.16.14",
+    "react": ">=16.14.0",
+    "react-dom": ">=16.14.0"
+  }
+}
