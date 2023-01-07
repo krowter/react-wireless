@@ -1,6 +1,6 @@
 {
   "name": "react-wireless",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "homepage": "https://github.com/krowter/react-wireless",
   "description": "State management solution that allows 'lifting the state' without parent rerender",
   "main": "src/index.js",
