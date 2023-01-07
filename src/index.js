@@ -1,11 +1,9 @@
-import { createContext, useSyncExternalStore, useContext } from "react";
+import { useSyncExternalStore } from "react";
 
 export function createSource(defaultValue) {
-  const ctx = createContext(createStore(defaultValue));
+  const store = createStore(defaultValue);
 
   return () => {
-    const store = useContext(ctx);
-
     const state = useSyncExternalStore(store.subscribe, store.get);
 
     return [state, store.set];
