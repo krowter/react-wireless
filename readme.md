@@ -4,7 +4,9 @@
 
 ![usage preview](./docs/preview.gif)
 
+### Quick disclaimer
 
+Most of the time, rerenders are fine and you shouldn't be bothered to optimize components when there are no signs of lagging and you still have other Jira tickets :). I created this just for fun and as a proof-of-concept.
 ## Background
 
 A while ago I stumbled upon Jack Herrington's video on [Blazing Fast React Context](https://www.youtube.com/watch?v=ZKlXqrcBx88&t=1496s) (I really recommend watching it) and learned you can share state using Context _without the parent rerendering_.
